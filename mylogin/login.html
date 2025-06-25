@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSR | Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+
+            <h1>Login</h1>
+            <div class="input_box">
+                <input type="text" name="username" id="username" required placeholder="Username">
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input_box">
+                <input type="password" name="password" id="password" required placeholder="Password">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="input_box">
+                <input type="email" name="email" id="email" required placeholder="E-mail">
+                <i class='bx bx-envelope'></i>
+            </div>
+
+            <div class="remember-forget">
+                <label><input type="checkbox">Remember me</label>
+                <a id="a" href="#">Forget password?</a>
+            </div>
+
+            <div class="btn">
+                <button id="button" type="button">Login</button>
+                
+                <div class="sign_in">
+                    <p>Don't have a account ?</p> 
+                    <button id="btn_sign" type="button">Sign in</button>
+                </div>
+                
+            </div>
+
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
